@@ -73,7 +73,7 @@ const useProducto = () =>{
         if (name === '') {
             alertaWarning('Nombre en blanco', 'name')
         } else if (image === '') {
-            alertaWarning('Imagen en blanco', 'imagen')
+            alertaWarning('Imagen en blanco', 'image')
         }else {
             payload = {
                 name:name,
